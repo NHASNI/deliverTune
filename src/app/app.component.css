@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.goto-top {
+    position: fixed !important;
+    bottom: 13px !important;
+    right: 55px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+    border-radius: 15px !important;
+    outline: none !important;
+    cursor: pointer;
+    }

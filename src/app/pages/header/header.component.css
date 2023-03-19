@@ -1,0 +1,48 @@
+.navbar-inverse{
+  margin-top: -100px;
+  transition: 1s;
+}
+.navbar-inverse1{
+    margin-top: 0;
+    transition: 1s;
+  }
+ul li a {
+    padding: 10px;
+    color: #1B1C20;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    transform: color 0.3s linear;
+}
+
+ul li a:hover,
+ul li a:active{
+    color: #1B1C20;
+    text-decoration: orange 3px  underline;
+
+}
+ul li a:focus{
+    color: #1B1C20;
+    text-decoration: underline;
+}
+ul li {
+    list-style: none;
+}
+.logo img{
+   
+    width: 100px;
+    height: 70px;
+    margin-left: 36px;
+    margin-bottom: -29px;
+
+}
+.btn {
+    color: #fff;
+    background: #FB8E0B;
+    border: 1.35px solid #F36905;
+    border-radius: 27px;
+    height: 54px;
+    width: 189px;
+
+}

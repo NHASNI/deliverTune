@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:wght@300&family=Nunito+Sans:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.switch-box{
+    
+    width: max-content;
+}
+.form-check-input{
+    background-color: #fd7e14;
+    border: #fd7e14;
+}
+.form-check-input:checked{
+    background-color: #fd7e14;
+    border: #fd7e14;
+}
+@media screen and (min-width: 1024px) {
+    .head {
+        width: 72%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .head {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .head {
+        width: 70%;
+        font-size: 20px;
+        line-height: 18px;
+        line-height: 25px;
+
+    }
+
+    .para {
+        width: 70%;
+        font-size: 10px;
+        line-height: 5px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .head {
+        width: 70%;
+        font-size: 25px;
+        /* line-height: 10px; */
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .head {
+        width: 90%;
+        font-size: 17px;
+   }
+}
+
+.right-tick {
+    background: #FB8E0B;
+    border-radius: 20.5px;
+    width: 70%;
+    text-align: center;
+    padding: 8px;
+    margin-left: 15%;
+}
+@media screen and (max-width: 575px) {
+
+    .right-tick {
+        width: 90%;
+        /* font-size: 17px; */
+        padding: 5px;
+    margin-left: 5%;
+
+    }
+    .right-tick svg{
+        width:15px;
+         height:15px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .para {
+        width: 80%;
+      font-size: 16px;
+      line-height: 7px;
+    } 
+}
+/* ============================================= button  =========================================== */
+/* input[type="checkbox"] {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+label {
+    width: 57px;
+    height: 29.99px;
+    display: block;
+    background-color:  #FB8E0B;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+   
+}
+
+label::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #e8f5f7;
+    position: absolute;
+    border-radius: 70px;
+    top: 15px;
+    left: 15px;
+    transition: 0.5s;
+}
+
+input:checked+label:after {
+    left: calc(100% - 10px);
+    /* transform: translateX(-100%); */
+/* }
+
+input:checked+label {
+    background-color: #FB8E0B;
+}
+
+label:active:after {
+    width: 160px;
+} */
+
+/*======================================================= card css ======================================================== */
+.card {
+    width: 80%;
+
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-shadow: 0px 4px 5px 1px rgba(193, 193, 193, 0.35);
+    border-radius: 4px;
+}
+@media screen and (max-width:425px){
+    .card { width:80% ;}
+}
+
+.card-title {
+    width: 204px;
+    height: 54px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    text-align: center;
+
+    /* Gray/900 */
+
+    color: #111827;
+
+}
+
+.price {
+    text-align: center;
+    color: #000000;
+    width: 170px;
+    height: 78px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+.btn {
+    color: #fff;
+    background: #FB8E0B;
+    border: 3px solid #F36905;
+    border-radius: 27px;
+    height: 54px;
+    width: 189px;
+
+}
+
+.description {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* ============================================================================================================================ */
+
+.bg-image {
+    box-sizing: border-box;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.channels{
+    width: 50%;
+}
+@media screen and (max-width:990px){
+    .channels{
+        width: 100%;
+        margin: 0;
+    }  
+}
+/* ===================================================================================================================== */
+.colImage {
+    /* width: 90%; */
+    background: #FFFFFF;
+    border: 0.484509px solid #CBCBCB;
+    box-shadow: 0px 1.93804px 9.69018px rgba(119, 198, 242, 0.4);
+    border-radius: 9.69018px;
+
+}
+
+.paragraph {
+    color: #6D7280;
+    width: 80%;
+    font-weight: 400px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    /* line-height: 30px; */
+}
+
+.paragraph ul li {
+    line-height: 40px;
+
+}
+
+.paragraph ul li::marker {
+    color: #FB8E0B;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .paragraph {
+        font-size: 18px;
+
+    }
+
+    .paragraph ul li {
+        line-height: 30px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================================================================================= */
+.para {
+    color: #6D7280;
+    width: 50%;
+    font-weight: 400px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+
+}
+
+.image {
+    width: 100%;
+}
+
+.image img {
+    width: 200px;
+    height: 241px;
+}
+
+/* =============================================     common-quetion  =============================================================== */
+.common-quetion {
+    width: 100%;
+    background-color: #FB8E0B;
+    position: relative;
+    z-index: 1;
+}
+
+.common-quetion span {
+    color: #fff;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.accordion {
+
+    width: 80%;
+    z-index: 2;
+}
+
+.accordion-header {
+    color: #6D7280;
+}
+
+.accordion-body ol li {
+    font-family: 'inter';
+    font-weight: 900;
+    color: #6D7280;
+    line-height: 200%;
+}
+
+
+@media screen and (max-width: 575.98px) {
+
+    .common-quetion span {
+        margin-left: 15%;
+        font-size: 25px;
+    }
+
+    .accordion-body ol li {
+        color: #6D7280;
+        font-size: small;
+        line-height: 100%;
+    }
+}
